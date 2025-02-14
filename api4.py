@@ -23,6 +23,7 @@ students = {
 
 @data.route("/hello")
 def hello():
+    print("Successfully connected to MySQL")
     return "hello world"
     
 @data.route("/mysql")
